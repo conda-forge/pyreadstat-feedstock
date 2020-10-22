@@ -37,8 +37,8 @@ test:
 
 about:
   home: https://github.com/Roche/pyreadstat
-  license: Apache License 2.0
-  license_family: Apache-2.0
+  license: Apache-2.0
+  license_family: APACHE
   license_file: LICENSE.txt
   summary: read SAS, SPSS and STATA files into pandas data frames
   description: |
