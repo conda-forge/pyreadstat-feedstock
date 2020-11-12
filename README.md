@@ -3,7 +3,7 @@ About pyreadstat
 
 Home: https://github.com/Roche/pyreadstat
 
-Package license: Apache
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyreadstat-feedstock/blob/master/LICENSE.txt)
 
