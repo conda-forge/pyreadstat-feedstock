@@ -1,5 +1,5 @@
 {% set name = "pyreadstat" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: df85598237cae23ebb1b4fbe460f564d4916bcb6e64b6414e6b73d41a43cecb6
+  sha256: 765c7f7e0e6836518fcc50597a807474bbc135fe85ad7faf158bf41f622f9453
 
 build:
   number: 0
