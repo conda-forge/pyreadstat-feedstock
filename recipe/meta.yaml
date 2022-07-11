@@ -28,10 +28,14 @@ requirements:
     - pip
     - cython
     - zlib  # [not win]
+    - zlib  # [win]
+    - libiconv  # [win]
   run:
     - python
     - pandas
     - zlib  # [not win]
+    - zlib  # [win]
+    - libiconv  # [win]
 
 test:
   imports:
