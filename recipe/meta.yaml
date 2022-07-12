@@ -1,5 +1,5 @@
 {% set name = "pyreadstat" %}
-{% set version = "1.1.7" %}
+{% set version = "1.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a282ee124d25de9f401f0f640896b7b51dce2101c4698a044f92e16b1cd90542
+  sha256: dad4548e8971c09209818246d24a2e21eddee492208419bdbf074aa3ed85a518
 
 build:
   number: 0
@@ -21,17 +21,19 @@ requirements:
     - cython                                 # [build_platform != target_platform]
     - {{ compiler('c') }}  # [win]
     - {{ compiler('c') }}  # [not win]
-  c_compiler:    # [win]
-    - vs2019       # [win]
   host:
     - python
     - pip
     - cython
     - zlib  # [not win]
+    - zlib  # [win]
+    - libiconv  # [win]
   run:
     - python
     - pandas
     - zlib  # [not win]
+    - zlib  # [win]
+    - libiconv  # [win]
 
 test:
   imports:
