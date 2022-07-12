@@ -1,5 +1,5 @@
 {% set name = "pyreadstat" %}
-{% set version = "1.1.8" %}
+{% set version = "1.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 590691e0e94c649d8a78a49162cc18431fc188b7686273c7940078237b693db2
+  sha256: dad4548e8971c09209818246d24a2e21eddee492208419bdbf074aa3ed85a518
 
 build:
   number: 0
@@ -21,8 +21,6 @@ requirements:
     - cython                                 # [build_platform != target_platform]
     - {{ compiler('c') }}  # [win]
     - {{ compiler('c') }}  # [not win]
-  c_compiler:    # [win]
-    - vs2019       # [win]
   host:
     - python
     - pip
