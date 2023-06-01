@@ -1,11 +1,11 @@
-About pyreadstat
-================
+About pyreadstat-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyreadstat-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Roche/pyreadstat
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyreadstat-feedstock/blob/main/LICENSE.txt)
 
 Summary: read SAS, SPSS and STATA files into pandas data frames
 
