@@ -21,10 +21,12 @@ requirements:
     - cython                                 # [build_platform != target_platform]
     - {{ compiler('c') }}  # [win]
     - {{ compiler('c') }}  # [not win]
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
     - cython
+    - setuptools
     - zlib  # [not win]
     - zlib  # [win]
     - libiconv  # [win]
