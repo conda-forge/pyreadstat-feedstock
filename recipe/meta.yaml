@@ -26,6 +26,7 @@ requirements:
     - python
     - pip
     - cython
+    - setuptools
     - zlib  # [not win]
     - zlib  # [win]
     - libiconv  # [win]
