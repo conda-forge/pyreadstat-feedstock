@@ -1,13 +1,13 @@
 {% set name = "pyreadstat" %}
-{% set version = "1.2.8" %}
+{% set version = "1.2.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ced3f261659f10d23843e36ec3ad6699fcac9a863820e53c6fb4b6c1abcf9e94
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bc4ff137b70013869727926867cf3c175ac56fd4e4a1d0e4317b559d8487ee4f
 
 build:
   number: 0
