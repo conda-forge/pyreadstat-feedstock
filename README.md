@@ -7,13 +7,13 @@ Home: https://github.com/Roche/pyreadstat
 
 Package license: Apache-2.0
 
-Summary: read SAS, SPSS and STATA files into pandas and polars data frames
+Summary: read SAS, SPSS and STATA files into pandas data frames
 
 Development: https://github.com/Roche/pyreadstat
 
 Documentation: https://github.com/Roche/pyreadstat
 
-A Python package to read SAS (sas7bdat, sas7bcat, xport/xpt), SPSS (sav, zsav, por) and Stata (dta) files into pandas and polars data frames. It is a wrapper around the C library readstat.
+A Python package to read SAS (sas7bdat, sas7bcat, xport/xpt), SPSS (sav, zsav, por) and Stata (dta) files into pandas data frames. It is a wrapper around the C library readstat.
 
 
 Current build status
