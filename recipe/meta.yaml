@@ -1,5 +1,5 @@
 {% set name = "pyreadstat" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: faddb9086797b24ff8f0540b8493ef5875620384e065a2d212f94295f69517a4
+  sha256: 5e22b4000570cc0b0b850c7fedc13129546729ca413d67697ede0074423b1ef6
 
 build:
   number: 0
@@ -32,7 +32,8 @@ requirements:
     - libiconv  # [win]
   run:
     - python
-    - pandas
+    - narwhals
+    - numpy
     - zlib  # [not win]
     - zlib  # [win]
     - libiconv  # [win]
