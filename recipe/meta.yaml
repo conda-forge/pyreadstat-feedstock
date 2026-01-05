@@ -10,7 +10,7 @@ source:
   sha256: 4ebb105119e4d4026328cd611e5e582e7456d14057be25070d5ebf7ff730ed78
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<35]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -32,7 +32,7 @@ requirements:
     - libiconv  # [win]
   run:
     - python
-    - narwhals
+    - narwhals >=2.10.1
     - numpy
     - zlib  # [not win]
     - zlib  # [win]
